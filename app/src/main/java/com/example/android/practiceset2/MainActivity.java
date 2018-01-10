@@ -11,9 +11,29 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // PASTE CODE YOU WANT TO TEST HERE
-        display1("This is Box 1.");
-        display2("And this is Box 2.");
-        display3("And look! Box 3!");
+        //display1("This is Box 1.");
+        //display2("And this is Box 2.");
+        //display3("And look! Box 3!");
+/*
+        int weekday = 5;
+        int weekend = 9;
+        int optimalHours = 7 * 8;
+
+        int actualHours = weekday;
+        actualHours = actualHours + weekend * 2;
+        int solution = optimalHours - actualHours;
+        display(solution);
+        */
+/*
+        double day1 = 15;
+        double day2 = 22;
+        double day3 = 18;
+        display(Double.toString((day1 + day2 + day3) / 3));
+        */
+        int raspberryPrice = 5;
+        display1("1 box: $" + raspberryPrice);
+        display2("2 boxes: $" + (raspberryPrice * 2));
+        display3("3 boxes: $" + (raspberryPrice * 3));
     }
 
     /**
